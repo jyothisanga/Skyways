@@ -12,6 +12,7 @@ public class VerifyTitleofHomepage extends BaseClasses{
 		String ht=driver.getTitle();
 		Assert.assertEquals(et,ht,"Both are not matching");
 		System.out.println("TC is pass");
+		System.out.println("I am from Newzen");
 		
 	}
 
